@@ -1,0 +1,263 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 20px 0;
+  font-family: "Open Sans", Helvetica, Arial, Sans-serif;
+  font-weight: 300;
+  line-height: normal;
+  color: black;
+}
+
+p {
+  color: #5B5B5D;
+  font-size: 15px;
+  line-height: 25px;
+  margin-top: 15px;
+}
+
+body {
+  background: url('/images/background.png');
+  font-family: "Open Sans", Helvetica, Arial, Sans-serif;
+}
+
+footer {
+  box-shadow: 0 0 10px #5B5B5D;
+  -moz-box-shadow: 0 0 10px #5B5B5D;
+  -webkit-box-shadow: 0 0 10px #5B5B5D;
+  background-color: white;
+  margin-top: 50px;
+}
+
+header {
+  box-shadow: 0 0 5px #5B5B5D;
+  -moz-box-shadow: 0 0 5px #5B5B5D;
+  -webkit-box-shadow: 0 0 5px #5B5B5D;
+  background-color: white;
+}
+
+#nav {
+  float: right;
+  line-height: 63px;
+}
+
+#nav a {
+  padding-right: 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 0 1px 1px white;
+  text-decoration: none;
+}
+
+#nav a:hover {
+  color: #3372B3;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.orange{
+  color: #C7723A;
+}
+
+.blue {
+  color: #3372B3;
+}
+
+.light-blue {
+  color: #5791C8;
+}
+
+.gray {
+  color: #5B5B5D;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.divider-line {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid white; 
+  margin: 75px 0 40px;
+}
+
+h3.divider-title {
+  width: 80%;
+  text-align: center;
+  margin: 100px auto 50px;
+  text-transform: uppercase;
+  font-size: 15px;
+  background: #C7723A;
+  height: 1px;
+  line-height: 4px !important;
+  font-weight: bold;
+  border: none;
+  padding: 0;
+}
+
+.divider-title span {
+  background: url('/images/background.png');
+  padding: 0 30px;
+}
+
+#hero {
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 0 1px 1px white;
+}
+
+#hero h1 small {
+  font-size: x-large;
+  display: block;
+}
+
+#services {
+}
+
+#services img {
+  margin-right: 10px;
+  display: inline;
+}
+
+#services h2 {
+  display: inline;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 0 1px 1px white;
+}
+
+#services p {
+}
+
+.column3 {
+  float: left;
+  width: 300px;
+  margin-left: 20px;
+}
+
+#work img {
+  background-color: white;
+  padding: 5px;
+  box-shadow: 5px 5px 10px #5b5b5d;
+  -webkit-box-shadow: 5px 5px 10px #5b5b5d;
+  -moz-box-shadow: 5px 5px 10px #5b5b5d;
+}
+
+#work h2 {
+  margin-top: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 0 1px 1px white;
+}
+
+#work p.tags {
+  margin-top: -25px;
+  font-size: 12px;
+}
+
+#work p {
+  margin-top: 5px;
+}
+
+#logo-adjust {
+  width: 900px;
+  margin: 40px auto 0;
+}
+
+#logo-adjust img {
+  margin-right: 20px;
+}
+
+#about a {
+  text-decoration: none;
+}
+
+#about h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 0 1px 1px white;
+  margin-bottom: -8px;
+}
+
+#about h2 span {
+  text-transform: none;
+  font-size: 20px;
+}
+
+#about p {
+  margin-top: 25px;
+}
+
+#about-photo {
+  width: 800px;
+  margin: 20px auto;
+}
+
+#about-photo img {
+  background-color: white;
+  padding: 5px;
+  box-shadow: 5px 5px 10px #5b5b5d;
+  -webkit-box-shadow: 5px 5px 10px #5b5b5d;
+  -moz-box-shadow: 5px 5px 10px #5b5b5d;
+}
+

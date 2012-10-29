@@ -5,19 +5,31 @@
     %title
       Foundry94
     %link{:rel => "stylesheet", :href => "/css/application.css", :type => "text/css", :media => "all"}    
+    %script{:src => '/javascripts/jquery-1.8.2-min.js', :type => 'text/javascript'}
+    %script{:src => '/javascripts/application.js', :type => 'text/javascript'}
   %body
     %header
       .container
         %a{:href => '/'}
           %img{:src => '/images/logo.png'}
         #nav
-    .container
-      = yield
+          %a.light-blue{:href => '#', :id => 'services-link'}
+            Services
+          %a.light-blue{:href => '#', :id => 'recent-work-link'}
+            Recent Work
+          %a.light-blue{:href => '#', :id => 'about-link'}
+            About
+    #content
+      .container
+        = yield
     %footer
       .container
-        %a{:href => '/'}
-          %img{:src => '/images/logo.png'}
-
+        %p.orange
+          Foundry94, LLC
+        %p
+          Detroit, MI
+        %p
+          hello@foundry94.com
 
 
 

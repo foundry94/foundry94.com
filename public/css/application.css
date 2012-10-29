@@ -68,14 +68,22 @@ body {
 }
 
 footer {
-  box-shadow: 0 0 10px #5B5B5D;
-  -moz-box-shadow: 0 0 10px #5B5B5D;
-  -webkit-box-shadow: 0 0 10px #5B5B5D;
-  background-color: white;
   margin-top: 50px;
+  text-align: center;
+}
+
+footer .container {
+  border-top: 1px solid #5B5B5D;
+}
+
+footer p {
+  line-height: 2px;
+  font-size: 12px;
 }
 
 header {
+  position: fixed;
+  width: 100%;
   box-shadow: 0 0 5px #5B5B5D;
   -moz-box-shadow: 0 0 5px #5B5B5D;
   -webkit-box-shadow: 0 0 5px #5B5B5D;
@@ -98,6 +106,10 @@ header {
 
 #nav a:hover {
   color: #3372B3;
+}
+
+#content {
+  padding-top: 101px;
 }
 
 .container {
